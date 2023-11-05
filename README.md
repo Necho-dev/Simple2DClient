@@ -96,7 +96,7 @@ Simple2DClient.
 
 ## 效果展示：
 
-![image-20231105103202427](http://cdn.ai-shijia.cn/PicFiles/2023/11/05/103209581-image-20231105103202427-9e6.png)
+![image-20231105103202427](./Images/image-1.png)
 
 **对应指令：**
 
@@ -111,7 +111,7 @@ insert circle 340 30 100 Head
 
 
 
-![image-20231105103815484](http://cdn.ai-shijia.cn/PicFiles/2023/11/05/103815569-image-20231105103815484-f55.png)
+![image-20231105103815484](./Images/image-2.png)
 
 **对应指令：**
 
@@ -125,10 +125,10 @@ paint RightLeg black
 
 ### 服务端(Server)：
 
-![image-20231105135422223](http://cdn.ai-shijia.cn/PicFiles/2023/11/05/135422550-image-20231105135422223-ad5.png)
+![image-20231105135422223](./Images/image-3.png)
 
 
 
 ### 客户端(Client)：
 
-![image-20231105135352760](http://cdn.ai-shijia.cn/PicFiles/2023/11/05/135400336-image-20231105135352760-5f0.png)
+![image-20231105135352760](./Images/image-4.png)
