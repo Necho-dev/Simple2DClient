@@ -3,17 +3,17 @@
 
 ### 服务端(Server)：
 
-    1. 监听3000端口，用于接收来自客户端的指令并响应
-    2. 提供图形化窗口，根据客户端的命令绘制和显示2D图形
+1. 监听3000端口，用于接收来自客户端的指令并响应
+2. 提供图形化窗口，根据客户端的命令绘制和显示2D图形
 
 ### 客户端(Client)：
 
-    1. 通过3000端口连接服务器
-    2. 向服务端发送指令，同时接收来自服务端的响应并输出
+1. 通过3000端口连接服务器
+2. 向服务端发送指令，同时接收来自服务端的响应并输出
 
 - 指令集
 
-  1. 符号变量
+  - 符号变量
 
   | 符号   | 类型   | 说明                       | 示例               |
   | ------ | ------ | -------------------------- | ------------------ |
@@ -25,7 +25,7 @@
   | name   | string | 图形名称                   | "head"             |
   | color  | string | 图形填充色<br />(默认为空) | "red"<br />"black" |
 
-  2. 指令操作
+  - 指令操作
 
   | 指令   | 说明 | 示例                                                         |
   | ------ | ---- | ------------------------------------------------------------ |
@@ -39,18 +39,17 @@
 
 ### 服务端(Server)：
 
-    1. 技术选型：
+1. 技术选型：
+   
+- 开发语言：C++11
+- 开发环境：Windows11 + CMake + MinGW
+- QT模块(版本：6.4.2)：
+   - 通信：QTcpSever\QTcpSocket\QHostAddress
+   - 绘图：QPainter\QPaintEvent
+   - 窗体：QMainWindow
+2. 文件结构：
 
-       - 开发语言：C++11
-       - 开发环境：Windows11 + CMake + MinGW
-       - QT模块(版本：6.4.2)：
-         - 通信：QTcpSever\QTcpSocket\QHostAddress
-         - 绘图：QPainter\QPaintEvent
-         - 窗体：QMainWindow
-
-    2. 文件结构：
-
-  ```
+```
 Simple2DServer.
 ├─main.cpp		// 服务端入口
 ├─lib
@@ -58,10 +57,12 @@ Simple2DServer.
 │  ├─Server.cpp	// 服务端-源文件
 │  ├─Server.ui
 │  └─ui_Server.h
+├─Release
+│  └─Simple2DServer.exe	// 可执行文件
 └─CMakeLists.txt
-  ```
+```
 
-    3. 运行
+3. 运行(.\Release\Simple2DServer.exe\)
 
   ```bash
 .\Simple2DServer 3000
@@ -69,21 +70,23 @@ Simple2DServer.
 
 ### 客户端(Client)：
 
-    1. 技术选型：
-
-       - 开发语言：C++11
-       - 开发环境：Windows11 + CMake + MinGW
-       - QT模块(版本：6.4.2)：
-         - 通信：QTcpSocket\QHostAddress
-    2. 文件结构：
+1. 技术选型：
+   
+- 开发语言：C++11
+- 开发环境：Windows11 + CMake + MinGW
+- QT模块(版本：6.4.2)：
+  - 通信：QTcpSocket\QHostAddress
+2. 文件结构：
 
   ```
 Simple2DClient.
 ├─main.cpp		// 客户端入口
+├─Release
+│  └─Simple2DClient.exe	// 可执行文件
 └─CMakeLists.txt
   ```
 
-    3. 运行
+3. 运行(.\Release\Simple2DClient.exe)
 
   ```bash
 .\Simple2DClient 127.0.0.1 3000
