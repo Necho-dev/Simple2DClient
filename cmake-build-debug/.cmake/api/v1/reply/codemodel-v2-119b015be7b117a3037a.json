@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Simple2DClient",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Simple2DClient::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simple2DClient-Debug-65a20aa2fb5dc464724e.json",
+					"name" : "Simple2DClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Simple2DClient_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simple2DClient_autogen-Debug-40f4eac5b22eb3027d85.json",
+					"name" : "Simple2DClient_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Simple2DClient_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simple2DClient_autogen_timestamp_deps-Debug-f9d1e6656df6e71123b4.json",
+					"name" : "Simple2DClient_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DevelopPros/CLionProjects/Simple2DClient/cmake-build-debug",
+		"source" : "D:/DevelopPros/CLionProjects/Simple2DClient"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

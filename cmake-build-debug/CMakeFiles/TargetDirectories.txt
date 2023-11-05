@@ -1,0 +1,5 @@
+D:/DevelopPros/CLionProjects/Simple2DClient/cmake-build-debug/CMakeFiles/Simple2DClient.dir
+D:/DevelopPros/CLionProjects/Simple2DClient/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DevelopPros/CLionProjects/Simple2DClient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/DevelopPros/CLionProjects/Simple2DClient/cmake-build-debug/CMakeFiles/Simple2DClient_autogen_timestamp_deps.dir
+D:/DevelopPros/CLionProjects/Simple2DClient/cmake-build-debug/CMakeFiles/Simple2DClient_autogen.dir
